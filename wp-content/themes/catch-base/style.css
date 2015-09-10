@@ -55,10 +55,10 @@ dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td {
 	border: 0;
-	font-family: Helvetica;
-    	font-size: 100%;
-    	font-style: inherit;
-    	font-weight: inherit;
+	font-family: inherit;
+	font-size: 100%;
+	font-style: inherit;
+	font-weight: inherit;
 	margin: 0;
 	outline: 0;
 	padding: 0;
@@ -146,9 +146,9 @@ button,
 input,
 select,
 textarea {
-	color: #000000;
-	font-family: Verdana;
-	font-size: 13px;
+	color: #404040;
+	font-family: sans-serif;
+	font-size: 15px;
 	line-height: 1.5;
 }
 
@@ -205,7 +205,7 @@ address {
 
 pre {
 	background: #eee;
-	font-family: Verdana;
+	font-family: "Courier 10 Pitch", Courier, monospace;
 	font-size: 15px;
 	font-size: 1.5rem;
 	line-height: 1.6;
@@ -219,7 +219,7 @@ code,
 kbd,
 tt,
 var {
-	font: 15px Verdana;
+	font: 15px Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
 }
 
 abbr,
@@ -348,7 +348,7 @@ body {
 }
 
 a {
-	color: #006666;
+	color: #21759b;
     text-decoration: none;
 }
 
@@ -494,7 +494,7 @@ blockquote:before {
     display: inline-block;
 	line-height: 1;
 	font-family: 'Genericons';
-    text-decoration: Helvetica;
+    text-decoration: inherit;
     vertical-align: text-bottom;
 }
 
@@ -890,7 +890,7 @@ textarea {
 .catchbase-nav-menu li a:focus,
 .sidebar-header-right .widget_nav_menu li a:hover,
 .sidebar-header-right .widget_nav_menu li a:focus {
-	color: #006666;
+	color: #21759b;
 	text-decoration: none;
 }
 
@@ -905,7 +905,7 @@ textarea {
 .catchbase-nav-menu .current_page_ancestor > a,
 .sidebar-header-right .widget_nav_menu .current-menu-item > a, 
 .sidebar-header-right .widget_nav_menu .current-menu-ancestor > a {
-	color: #006666;
+	color: #21759b;
 }
 
 .catchbase-nav-menu .sub-menu,
@@ -955,7 +955,7 @@ textarea {
 .catchbase-nav-menu .children li a:focus,
 .sidebar-header-right .widget_nav_menu .sub-menu li a:hover,
 .sidebar-header-right .widget_nav_menu .sub-menu li a:focus {
-	color: #006666;
+	color: #21759b;
 }
 
 .catchbase-nav-menu .sub-menu .sub-menu,
@@ -1155,7 +1155,7 @@ textarea {
 	border-radius: 3px;
 	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
 	clip: auto !important;
-	color: #006666;
+	color: #21759b;
 	display: block;
 	font-size: 14px;
 	font-weight: bold;
@@ -1249,7 +1249,7 @@ textarea {
 }
 
 .site-title a:hover {
-	color: #006666;
+	color: #21759b;
 	text-decoration: none;
 }
 
@@ -1332,7 +1332,7 @@ textarea {
 }
 
 #featured-content .entry-title a:hover {
-	color: #FAB700;
+	color: #21759b;
 }
 
 #featured-content .featured-content-image {
@@ -1398,7 +1398,7 @@ textarea {
 }
 
 .entry-title a:hover {
-	color: #006666;
+	color: #21759b;
 }
 
 .entry-title a:hover,
@@ -1922,7 +1922,7 @@ caption {
 
 #breadcrumb-list a,
 #breadcrumb-list a span {
-	color: #006666;
+	color: #21759b;
 	display: block;
 	padding: 5px 10px 3px; 
 }
@@ -2143,8 +2143,8 @@ caption {
 }
 
 .site .widget_catchbase_social_icons a.genericon-wordpress:hover {
-	background-color: #006666;
-	border-color: #006666;	
+	background-color: #21759b;
+	border-color: #21759b;	
 }
 
 .site .widget_catchbase_social_icons a.genericon-github:hover {
