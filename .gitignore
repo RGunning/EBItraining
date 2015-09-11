@@ -15,3 +15,5 @@ wp-content/plugins/hello.php
 
 /readme.html
 /license.txt
+
+wp-admin/.DS_Store
